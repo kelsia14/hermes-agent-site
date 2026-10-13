@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Hermes Agent</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; line-height: 1.65; }
+  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+  .sub { color: #666; margin-top: 0; }
+  h2 { font-size: 1.15rem; margin-top: 2.2rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid #8884; font-size: .9rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="sub">Hermes Agent — personal instance. Effective 13 October 2026.</p>
+
+<p>
+  This policy explains how <strong>Hermes Agent</strong> (the "Application") accesses, uses and
+  stores information from a Google Account. The Application is a personal, self-hosted
+  automation tool with a single user: the owner of the Google Account that authorises it.
+  It has no other users and no public sign-up.
+</p>
+
+<h2>1. Who is responsible</h2>
+<p>
+  The Application is operated by its owner for personal use only. Contact:
+  <a href="https://github.com/kelsia14/hermes-agent-site/issues">open an issue in this repository</a>.
+</p>
+
+<h2>2. What Google data is accessed</h2>
+<p>Only after you authorise the Application through Google's OAuth 2.0 consent screen, and only
+within the scopes you grant, the Application may access:</p>
+<ul>
+  <li><strong>Gmail</strong> — read messages, modify labels, and send messages (scopes
+      <code>gmail.readonly</code>, <code>gmail.modify</code>, <code>gmail.send</code>).</li>
+  <li><strong>Google Calendar</strong> — read, create and manage events (scope <code>calendar</code>).</li>
+  <li><strong>Google Drive</strong> — search, read, create and organise files (scope <code>drive</code>).</li>
+  <li><strong>Google Sheets</strong> — read and write spreadsheet rows (scope <code>spreadsheets</code>).</li>
+  <li><strong>Google Docs</strong> — read and edit documents (scope <code>documents</code>).</li>
+  <li><strong>Contacts</strong> — read-only, to resolve the people who appear in your email (scope
+      <code>contacts.readonly</code>).</li>
+</ul>
+<p>The Application does not request or access any Google data beyond these scopes.</p>
+
+<h2>3. How the data is used</h2>
+<p>Data is used solely to carry out the tasks you ask the Application to perform for you, such as:</p>
+<ul>
+  <li>summarising, triaging, labelling and searching your email;</li>
+  <li>drafting or sending replies that you request;</li>
+  <li>extracting invoice and receipt details and recording them in your expense spreadsheet;</li>
+  <li>reading, creating or managing calendar events;</li>
+  <li>finding, reading or organising files in your Drive.</li>
+</ul>
+<p>
+  The Application does not use Google data for advertising, profiling, creditworthiness, lending,
+  or any purpose unrelated to the tasks above.
+</p>
+
+<h2>4. Storage and security</h2>
+<ul>
+  <li>OAuth tokens are stored on infrastructure controlled by the owner, in files readable only by
+      the owner's user account, and are refreshed programmatically.</li>
+  <li>Message and file content is processed on that same infrastructure. It is not copied into any
+      public location and is not stored in any third-party account.</li>
+  <li>Access is protected by the owner's own operating-system and network security controls.</li>
+</ul>
+
+<h2>5. Automated processing by a language model</h2>
+<p>
+  To extract structured fields from documents (for example, the totals and dates on an invoice),
+  the text of the relevant document may be sent to a third-party large language model provider
+  through its commercial API, strictly for that one processing step. That processing is governed
+  by the provider's API terms; the Application's owner has instructed that the data is not used
+  to train models. No Google data is transferred to any other third party.
+</p>
+
+<h2>6. Sharing</h2>
+<p>
+  The Application does not sell, rent or share Google user data with third parties, other than the
+  processing step described in section 5. It does not transfer Google user data to advertisers,
+  data brokers, or any party for purposes unrelated to the tasks you request.
+</p>
+
+<h2>7. Retention and deletion</h2>
+<p>
+  Data extracted from your Google account is retained only as long as it is useful for the task it
+  was created for — for example, a booked expense row stays in your spreadsheet until you delete
+  it. To delete data, delete it at source in your Google Account. To have any locally cached copy
+  removed, use the contact method in section 1.
+</p>
+
+<h2>8. Limited Use disclosure</h2>
+<p>
+  Hermes Agent's use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.
+</p>
+
+<h2>9. Revoking access</h2>
+<p>You can revoke the Application's access at any time:</p>
+<ul>
+  <li>Visit your <a href="https://myaccount.google.com/connections">Google Account's third-party
+      connections page</a> and remove Hermes Agent's access, or</li>
+  <li>revoke its tokens directly through the Application's own authorisation tooling.</li>
+</ul>
+<p>After revocation the Application can no longer access your Google data.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>
+  This policy may be updated to reflect changes in the Application. The effective date at the top
+  of this page will be revised accordingly.
+</p>
+
+<h2>11. Contact</h2>
+<p>
+  For any question about this policy or your data:
+  <a href="https://github.com/kelsia14/hermes-agent-site/issues">open an issue in this repository</a>
+</p>
+
+<footer>
+  <p>Hermes Agent — personal instance. <a href="./index.html">Back to home</a>.</p>
+</footer>
+
+</body>
+</html>
